@@ -1,0 +1,85 @@
+/*configuraciones generales*/
+html{
+  scroll-behavior: smooth;
+}
+
+body, html {
+  background: black;
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+/*configuraciones generales*/
+/*------------------------------------*/
+/*Pantalla principal*/
+.bgimg1 {
+  background: rgb(6,6,6);
+  background: linear-gradient(0deg, rgba(6,6,6,1) 0%, rgba(4,13,18,0.5) 35%, rgba(4,11,16,0.5) 65%, rgba(32,32,32,1) 100%), url("../images/main.png");
+  min-height: 100%;
+  background-attachment: fixed;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.MainTitle {
+  text-shadow: 0px 2px 3px black;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.MainTitle span.MT {
+  color: #fff;
+  padding: 18px;
+  font-size: 4em;
+  letter-spacing: 10px;
+}
+.MainTitle span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.sub{
+  font-size: 1.2em;
+  color: white;
+  font-family: monospace;
+}
+/*Pantalla principal*/
+/*------------------------------------*/
+
+/*------------------------------------*/
+/*footer*/
+footer{
+  padding-top: 30px;
+  min-height: 100px;
+}
+
+.infFoot{
+  background:#080808;
+  border-top: 1px solid #202020;
+  border-bottom: 30px solid #202020;
+  padding: 0%;
+  padding-bottom: 30px;
+  align-items: center;
+  margin: 0;
+  min-height: 50px;
+  width: 100%;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1em;
+}
+
+.OpcInf{
+  margin: 0;
+  padding: 1% 0%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: 25px;
+}
+/*footer*/

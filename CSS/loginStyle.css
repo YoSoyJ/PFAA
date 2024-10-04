@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	color: white;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.35) 35%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.5) 100%), url(../Images/book2.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #f2f2f2;
+}
+
+@media only screen and (min-width: 400px) {
+  body {
+  	margin: 0;
+  	color: white;
+    background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.35) 35%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.5) 100%), url(../Images/studyL.jpeg);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #f2f2f2;
+  }
+}
+
+.LCMTT{
+	font-size: 1.8em;
+	color: #fc9e05;
+	-webkit-text-stroke: 0.2px #e79105;
+}
+
+.Logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+.logLogo{
+	margin: 0;
+	padding: 0;
+	height: 25vh;
+}
+
+.container{
+	background-color: rgba(28,28,28,0.75);
+	backdrop-filter: blur(2px);
+
+	width: 300px;
+	padding: 30px;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+.form-control{
+	color: black;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.btn{
+	border-radius: 5px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: 0.1s ease-out;
+}
+
+
+.btn:hover{
+	background-color: #0056b3;
+	transform: scale(1.1);
+}
