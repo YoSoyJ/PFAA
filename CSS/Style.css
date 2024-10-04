@@ -84,6 +84,7 @@ footer{
 }
 /*footer*/
 
+/*Logo en footer*/
 .Logo{
   display: flex;
   align-items: center;
@@ -98,6 +99,7 @@ footer{
   text-align: left;
   margin-bottom: 0;
   padding-bottom: 0;
+  font-family: cambria;
 }
 
 .logLogo{
@@ -109,13 +111,50 @@ footer{
   text-align: center;
   margin: 0;
   padding: 0;
+  margin-top: -2vh;
+  font-family: serif;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+/*Logo en footer*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+.SecTt{
+  margin: 5vw;
+  margin-bottom: 0.5vw;
+  opacity: 0.7;
+  font-family: cursive;
+  color: white;
+  border: 5px, solid, white;
+  border-style: double;
+  padding: 2vh;
+  text-align: center;
+}
+.inf{
+  opacity: 0.7;
+  font-family: cursive;
+  color: white;
+  padding: 5vh;
 }
 
+.sectCar{
+  min-height: 100vh;
+  background: #080808;
+}
+
+
+/*------------------------------------*/
+/*------------------------------------*/
 /*cambios en relacion de aspecto*/
+
+.sectInf{
+  display: flex;
+}
 
 @media screen and (orientation: landscape) { /*orientacion horizontal, su funcion se explica sola*/
 .LCMTT{
-  font-size: 1.8em;
+  font-size: 3em;
 }
 
 .logLogo{
@@ -126,11 +165,27 @@ footer{
   font-size: 1.5em;
 }
 
+.sectInf{
+   background: rgb(6,6,6);
+  background: linear-gradient(0deg, rgba(6,6,6,1) 0%, rgba(4,13,18,0.5) 35%, rgba(4,11,16,0.5) 65%, rgba(32,32,32,1) 100%), url("../Images/blackboardH2.jpeg");
+  flex-direction: grow;
+}
+
+.SecTt{
+  min-width: 35%;
+  max-width: 40%;
+}
+
+.inf{
+  padding-right: 15vw;
+}
+
+
 }
 
 @media screen and (orientation: portrait){ /*orientacion vertical, su funcion se explica sola*/
 .LCMTT{
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 
 .logLogo{
@@ -138,8 +193,34 @@ footer{
 }
 
 .pasport{
-  font-size: 1em;
+  font-size: 1.2em;
+}
+
+.sectInf{
+   background: rgb(6,6,6);
+  background: linear-gradient(0deg, rgba(6,6,6,1) 0%, rgba(4,13,18,0.5) 35%, rgba(4,11,16,0.5) 65%, rgba(32,32,32,1) 100%), url("../Images/blackboardV.jpeg");
+  flex-direction: column;
+}
+
+.SecTt{
+  min-width: 55vw;
+  max-width: 60vw;
+}
+
+.inf{
+  padding-left: 15vw;
 }
 
 }
+
+.sectInf{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 /*cambios en relacion de aspecto*/
