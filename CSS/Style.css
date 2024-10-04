@@ -83,3 +83,63 @@ footer{
   grid-template-rows: 25px;
 }
 /*footer*/
+
+.Logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.LCMTT{
+  color: white;
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.logLogo{
+  margin: 0;
+  padding: 0;  
+}
+
+.pasport{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*cambios en relacion de aspecto*/
+
+@media screen and (orientation: landscape) { /*orientacion horizontal, su funcion se explica sola*/
+.LCMTT{
+  font-size: 1.8em;
+}
+
+.logLogo{
+  height: 25vh;
+}
+
+.pasport{
+  font-size: 1.5em;
+}
+
+}
+
+@media screen and (orientation: portrait){ /*orientacion vertical, su funcion se explica sola*/
+.LCMTT{
+  font-size: 1.2em;
+}
+
+.logLogo{
+  height: 20vh;
+}
+
+.pasport{
+  font-size: 1em;
+}
+
+}
+/*cambios en relacion de aspecto*/

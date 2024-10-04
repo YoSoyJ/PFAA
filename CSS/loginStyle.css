@@ -10,39 +10,6 @@ body{
 	color: #f2f2f2;
 }
 
-@media screen and (orientation: landscape) { /*orientacion horizontal*/
-  body {
-  	margin: 0;
-  	color: white;
-    background: rgb(0,0,0);
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.35) 35%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.5) 100%), url(../Images/bgmain.jpeg);
-    background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	color: #f2f2f2;
-  }
-}
-
-.LCMTT{
-	font-size: 1.8em;
-	color: white;
-}
-
-.Logo{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 30px;
-	margin: 0 auto;
-	margin-top: 5vh;
-}
-.logLogo{
-	margin: 0;
-	padding: 0;
-	height: 25vh;
-}
-
 .container{
 	background-color: rgba(28,28,28,0.75);
 	backdrop-filter: blur(2px);
@@ -72,4 +39,53 @@ body{
 .btn:hover{
 	background-color: #0056b3;
 	transform: scale(1.1);
+}
+
+.Logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+
+@media screen and (orientation: landscape) { /*orientacion horizontal, su funcion se explica sola*/
+  body {
+  	margin: 0;
+  	color: white;
+    background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.35) 35%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.5) 100%), url(../Images/bgmain.jpeg);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #f2f2f2;
+  }
+
+.LCMTT{
+	font-size: 1.8em;
+	color: white;
+}
+
+.logLogo{
+	margin: 0;
+	padding: 0;
+	height: 25vh;
+}
+
+}
+
+@media screen and (orientation: portrait){ /*orientacion vertical, su funcion se explica sola*/
+.LCMTT{
+	font-size: 1.2em;
+	color: white;
+}
+
+.logLogo{
+	margin: 0;
+	padding: 0;
+	height: 15vh;
+}
+
 }
