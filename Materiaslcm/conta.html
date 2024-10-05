@@ -1,0 +1,92 @@
+<html>
+<head>
+    <meta charset=<!DOCTYPE html>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pagina web</title>
+    <style type="text/css">
+
+         .SecTt{
+  margin: 5vw;
+  margin-bottom: 0.5vw;
+  opacity: 0.7;
+  font-family: Broadway;
+  color: white;
+  border: 5px, solid, white;
+  letter-spacing: 4px;
+  border-radius: 30px;
+  padding: 3vh;
+  text-align: center;
+             transform: translate(-5%,-20%);
+           padding: 2rem 2rem;
+           animation: mover-derecha-izquierda 2s 1;
+}
+
+       @keyframes mover-derecha-izquierda{
+            from{
+                transform: translateX(-800px);
+            }
+       }
+
+.inf{
+  opacity: 0.7;
+  font-family: Lucida Bright;
+  color: white;
+   letter-spacing: 2px;
+  padding: 5vh;
+   animation: mover-izquierda-derecha 2s 1 ;
+        }
+        @keyframes mover-izquierda-derecha{
+            from{
+                transform: translateX(-90px);
+            }
+         }
+.sectInf{
+  display: flex;
+}
+
+@media screen and (orientation: portrait){
+.sectInf{
+   background: rgb(6,6,6);
+  background: linear-gradient(0deg, rgba(3,3,3,1) 0%, rgba(4,5,9,0.5) 10%, rgba(4,11,16,0.5) 50%, rgba(5,5,5,1) 100%), url("contabilidad.jpg");
+  flex-direction: column;
+}
+}
+
+@media screen and (orientation: landscape){
+.sectInf{
+   background: rgb(6,6,6);
+  background: linear-gradient(0deg, rgba(6,6,6,1) 0%, rgba(4,13,18,0.5) 35%, rgba(4,11,16,0.5) 65%, rgba(32,32,32,1) 100%), url("contabilidad.jpg");
+  flex-direction: grow;
+}
+}
+
+.sectInf{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+                *{
+            margin: 0;
+            padding: 0;
+    </style>
+</head>
+<body>
+     <div class="sectInf" id="FAA"> 
+        <h1 class="SecTt">CONTABILIDAD</h1>
+        <p class="inf">
+            Clasificación de cuentas contables
+Impuestos
+Libros contables
+Juego: Lotería contable.
+La clasificación de cuentas contables incluye cuentas de activo, cuentas de pasivo, cuentas de patrimonio, cuentas de ingreso y cuentas de gasto. Los impuestos son tributos obligatorios que las personas y empresas deben pagar al Estado para financiar servicios públicos. Por otro lado, los libros contables son registros sistemáticos de las transacciones financieras, destacando el libro diario, el libro mayor y los libros auxiliares.
+
+        </p>    
+     </div>
+</body>
+</html>
