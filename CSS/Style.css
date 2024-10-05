@@ -145,6 +145,40 @@ footer{
 
 
 /*------------------------------------*/
+
+.sectCar{
+  background: rgb(28,28,28);
+  background: linear-gradient(180deg, rgba(28,28,28,0.5) 0%, rgba(0,0,0,0.5) 100%), url("../Images/mountain.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CarContainer{
+  margin-top: -35vh;
+  padding: 10vw;
+  height: 480px;
+  width: 600px;
+}
+
+.carTxtS{
+  font-family: 'serif';
+  text-align: center;
+  border-bottom: 3px solid #212121;
+}
+
+.carTxtI{
+  margin-top: 1vh;
+  font-family: 'serif';
+  text-align: center;
+  border-top: 3px solid #212121;
+}
+
 /*------------------------------------*/
 /*cambios en relacion de aspecto*/
 
@@ -205,6 +239,7 @@ footer{
 .SecTt{
   min-width: 55vw;
   max-width: 60vw;
+  margin: 6vw;
 }
 
 .inf{
@@ -224,3 +259,8 @@ footer{
 }
 
 /*cambios en relacion de aspecto*/
+
+/*link img*/
+.imgl:link{color: white;  font-family: Comic Sans MS; text-decoration: none;}
+.imgl:visited{color: white;  font-family: Comic Sans MS; text-decoration: none; }
+.imgl:hover{ color: lightgray; font-family: Comic Sans MS; text-decoration: none;}
