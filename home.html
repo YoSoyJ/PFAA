@@ -12,20 +12,11 @@
 <body>
 
 <div class="bgimg1">
-	
-<!--barra de navegacion-->
-<nav class="navbar navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <img src="Images/LCMLogo/LCM720.png" height="50">
-    Liceo Compu-Market</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opciones</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
+
+<!--nav-->
+<!--barra de navegacion (1.1)-->
+<div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+  <div class="bg-dark p-4">
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
@@ -34,28 +25,27 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#Mtr">Materias de la F.A.A.</a>
           </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Equipo de desarrollo de esta página
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Jahir López</a></li>
-              <li><a class="dropdown-item" href="#">Darlin Villar</a></li>
-              <li><a class="dropdown-item" href="#">Jaquelin Esquite</a></li>
-              <li><a class="dropdown-item" href="#">Josseline Rogel</a></li>
-              <li><a class="dropdown-item" href="#">Allan Morales</a></li>
-            </ul>
-          </li>
-
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#frm">Formulario final</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#team">Equipo de desarrollo de la pagina</a>
+          </li>
         </ul>   
       </div>
-    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> <img src="Images/LCMLogo/LCM720.png" height="50">
+    Liceo Compu-Market</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   </div>
 </nav>
+
 <!--barra de navegacion-->
 
 <!--Titulo principal-->
@@ -134,6 +124,27 @@
 			<br>
 			<div>
 				<p>Nos encantaria conocer tu experiencia en <br> -><a href="https://docs.google.com/forms/d/e/1FAIpQLSehT2BTw6nuhCcOXfPofM_KTW8qSnxIOtDthG0W7sYJsAlRNQ/viewform" target="blank">este formulario.</a><- <br>:)</p>
+
+<div class="accordion accordion-dark" id="team">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Equipo de desarrollo de esta página
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Jahir López</li>
+          <li class="list-group-item">Jaquelin Esquite</li>
+          <li class="list-group-item">Josseline Rogel</li>
+          <li class="list-group-item">Darlin Villar</li>
+          <li class="list-group-item">Allan Morales</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 				<div class="Logo">
 					<img src="Images/LCMLogo/LCM720.png" class="logLogo">

@@ -267,3 +267,39 @@ footer{
 .imgl:link{color: white;  font-family: Comic Sans MS; text-decoration: none;}
 .imgl:visited{color: white;  font-family: Comic Sans MS; text-decoration: none; }
 .imgl:hover{ color: lightgray; font-family: Comic Sans MS; text-decoration: none;}
+
+
+/*lista oscura y aha eso XD, ya me dio weba comentar, pero es para la lista de integrantes (el acordeon)*/
+
+/* Estilos para el acordeón oscuro */
+.accordion-dark .accordion-button {
+    background-color: #080808; /* Fondo oscuro para el botón */
+    color: white; /* Texto blanco */
+    border: none;
+}
+
+.accordion-dark .accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-dark .accordion-button:not(.collapsed) {
+    background-color: #050505; /* Fondo más oscuro cuando está abierto */
+}
+
+.accordion-dark .accordion-body {
+    background-color: #080808; /* Fondo oscuro para el contenido */
+    color: white;
+}
+
+.accordion-dark .list-group-item {
+    background-color: #080808; /* Fondo oscuro para los ítems */
+    color: white;
+    text-align: left; /* Alineación a la izquierda */
+    border-color: #212121; /* Cambia el borde blanco por #212121 */
+}
+
+.accordion-dark .list-group-item:hover {
+    background-color: #030303; /* Fondo más oscuro cuando pasas el cursor */
+}
+
+/**/
