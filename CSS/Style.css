@@ -124,7 +124,7 @@ footer{
   margin: 5vw;
   margin-bottom: 0.5vw;
   opacity: 0.7;
-  font-family: cursive;
+  font-family: serif;
   color: white;
   border: 5px, solid, white;
   border-style: double;
@@ -213,6 +213,7 @@ footer{
 .inf{
   padding-right: 15vw;
   font-size: 1.5em;
+  font-family: serif;
 }
 
 
@@ -245,6 +246,7 @@ footer{
 
 .inf{
   padding-left: 15vw;
+  font-family: serif;
 }
 
 }
