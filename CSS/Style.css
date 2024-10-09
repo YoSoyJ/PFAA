@@ -269,6 +269,9 @@ footer{
 .imgl:hover{ color: lightgray; font-family: Comic Sans MS; text-decoration: none;}
 
 
+
+
+/*para esta parte si me apoyé de gpt XD*/
 /*lista oscura y aha eso XD, ya me dio weba comentar, pero es para la lista de integrantes (el acordeon)*/
 
 /* Estilos para el acordeón oscuro */
@@ -279,15 +282,17 @@ footer{
 }
 
 .accordion-dark .accordion-button:focus {
+  color: white;
     box-shadow: none;
 }
 
 .accordion-dark .accordion-button:not(.collapsed) {
+    color: white;
     background-color: #050505; /* Fondo más oscuro cuando está abierto */
 }
 
 .accordion-dark .accordion-body {
-    background-color: #080808; /* Fondo oscuro para el contenido */
+    background-color: black; /* Fondo oscuro para el contenido */
     color: white;
 }
 
@@ -295,7 +300,7 @@ footer{
     background-color: #080808; /* Fondo oscuro para los ítems */
     color: white;
     text-align: left; /* Alineación a la izquierda */
-    border-color: #212121; /* Cambia el borde blanco por #212121 */
+    border-color: white; /* Cambia el borde blanco por #212121 */
 }
 
 .accordion-dark .list-group-item:hover {
@@ -303,3 +308,4 @@ footer{
 }
 
 /**/
+
